@@ -1,0 +1,27 @@
+h1 {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    background-color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: -moz-inline-box;
+    margin: 30px;
+}
