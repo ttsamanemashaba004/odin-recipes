@@ -1,27 +1,95 @@
+/** {
+    border: 1px solid rebeccapurple;
+}*/
+
 h1 {
-    background-color: whitesmoke;
-    text-align: center;
-    font-size: 80px;
+    background-color: lightslategray;
+    font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    color: whitesmoke;
+    margin: 0;
+    height: 30px;
+    border: 2px solid black;
 }
 
 div {
-    background-color: whitesmoke;
-    font-size: 30px;
-    text-align: center;
+    margin: auto 85px;
+}
+    
+
+.trotters {
+    display: inline-block;
+    width: 500px;
+    height: 750px;
+    margin: 10px;
+    background-color: lightslategray;
+}
+
+.jollof {
+    display: inline-block;
+    width: 500px;
+    height: 750px;
+    background-color: lightslategray;
+}
+
+.bobotie {
+    display: inline-block;
+    width: 500px;
+    height: 750px;
+    margin: 10px;
+    border: solid gray;
+    background-color: lightslategray;
+}
+
+.trotters li, .jollof li, .bobotie li {
+    list-style: none;
+    font-size: 40px;
+}
+
+.trotters ul, .jollof ul, .bobotie ul {
+    padding-left: 25px;
+}
+
+.trotters, .bobotie, .jollof {
+    border: 2px solid black;
+}
+
+a {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 
 body {
     background-color: whitesmoke;
+    margin: 0;
+
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
+.bobimg, .trotimg .jolimg {
+    height: 450px;
+    width: 450px;
+    display: inline;
+    margin: 8px;
 }
 
-li {
-    display: -moz-inline-box;
-    margin: 30px;
+.trotimg {
+    display: inline;
+    height: 450px;
+    width: 450px;
+    margin: 8px;
+}
+
+.jolimg {
+    display: inline;
+    height: 450px;
+    width: 450px;
+    margin: 8px;
+}
+
+.trotimg, .jolimg, .bobimg {
+    margin: 25px;
+    border: 2px solid black;
 }
