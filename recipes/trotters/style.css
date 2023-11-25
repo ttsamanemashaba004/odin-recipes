@@ -5,6 +5,39 @@ img {
 
 body {
     background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.section1, .section2, .section3 {
+    width: 800px;
+    margin: 8px 550px;
+    border: 2px solid black;
+    color: whitesmoke;
+    background-color: lightslategrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section1 p, .section2 ul, .section3 ol {
+    color: black;
+}
+
+.img {
+    
+    margin: auto;
+    background-color: lightslategrey;
+    border: 2px solid black;
+}
+
+.title {
+    border: 2px solid black;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lightslategrey;
+    margin-top: 0;
+} 
+
+.section1 p {
+    margin: 20px;
 }
 
 h1, h2, h3, h4 {
