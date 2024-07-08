@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+}
+ 
+h1 {
+    color: whitesmoke;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: beige;
+}
