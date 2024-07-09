@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: whitesmoke;
 }
  
 h1 {
@@ -7,6 +7,20 @@ h1 {
     font-size: 150px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+.heading {
+    background-color: black;
+    padding: 10px;
+    
+}
+
+.recipes {
+    background-color: black;
+    margin: 10px 0;
+    padding: 125px 50px;
+    text-align: center;
 }
 
 li {
@@ -17,4 +31,22 @@ li {
 
 a {
     color: beige;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.box {
+    display: inline-block;
+}
+
+.box a {
+    display: block;
+}
+
+.ranch img {
+    height: 500px;
 }
